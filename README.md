@@ -3,6 +3,7 @@
 Please clone this repo to receive all the assets you need to work on this take home test.
 
 The `src` directory contains:
+
 - A few sheets files containing survey data
 - A general data spreadsheet
 - Clock in and out timings
@@ -16,23 +17,27 @@ A large Telecommunications company, employs around 4000 employees. Every year, a
 2. Big amount of resources is needed to maintain a large recruitment department
 3. Work Productivity/Effectiveness is reduced due to the onboarding period for new staff
 
-However, the data needed to analyse attrition and make recommendations are stored in many source systems and it is therefore difficult to work with. Hence, they contracted a workplace engineering & analytics firm to understand what data is available and how best to store this data. Furthermore, they require an investigation into which factors are contributing to the high attrition rate, and what changes they should make to their workplace to support better retention.
+Hence, they contracted a workplace engineering & analytics firm to understand what factors are contributing to the high attrition, and what changes they should make to their workplace to support better retention. In addition, given limited resources, the company would like to know which variable is the most important and needs to be addressed straight away.
 
-Since you are the super star data engineer on the workplace engineering team, you’ve been tasked with the project.
+Since you are the super star data scientist on the workplace engineering team, you’ve been tasked with the project.
 
 ## Goal
 
-* You are required to investigate the datasets given and complete the following tasks:
-  * Investigate and store the data in a database to optimise further BI and analytics work
-  * Explore and analyse the data and provide a data profile
-  * Visualise the data on a dashboard (using the new database as the source) to allow for easy filtering and segmentation by a non-data professional
-  * If possible, model the probability of attrition using logistic regression
-* You will present the outcomes and your recommendations to the (hypothetical) senior management team to help them understand what data is available and how best to store and analyse this data.
-  * You may also present your findings (if any) from the logistic regression model and discuss the key drivers of attrition.
-* As a data strategist, are there any recommendations you would make to improve the efficiency of our data collection/analysis process?
+1. You are required to model the probability of attrition
+2. You will present the outcome and your recommendations to the (hypothetical) senior management team to help them understand what changes they should make to their workplace, in order to reduce the current attrition rate.
+3. As a data strategist, are there any recommendations you would make to improve the efficiency of our data collection/analysis process?
+
+## Your Submission
+
+1. Create a private GitHub repository with the code (please do not share your solution publicly).
+2. Give the following users read access to your private repository: pranampartab, fanguman, eoc7, sarastegemoller
+3. Provide precise instructions for deploying the solution and replicating your results.
+4. Submit a document with the repository link to the URL at the bottom of this email.
+
+Your solution will not be used or copied in any of our products. This exercise is for interview purposes only. We look forward to receiving your submission!
 
 ## Databases
 
 You will find 6 additional files attached to this project:
 
-Six datasets (Employee survey data, general data, manager survey data, in_time, out_time, Glassdoor reviews) with all their variables defined and explained in the “data dictionary” sheet. The Glassdoor reviews dataset is anonymous and cannot be joined with the rest of the data.
+Five datasets: Employee survey data, general data, manager survey data, in_time, out_time. All the variables are defined and explained in the “data dictionary” sheet.
