@@ -7,7 +7,6 @@ The `src` directory contains:
 - A few sheets files containing survey data
 - A general data spreadsheet
 - Clock in and out timings
-- Glassdoor reviews
 
 ## Problem Statement
 
